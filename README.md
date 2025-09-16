@@ -2,7 +2,7 @@
 
 Desktop QR code generator with a simple PyQt5 GUI. Paste any string (e.g., a crypto wallet address) and export (off-line) QR codes to **PNG**, **SVG**, or **PDF**. MIT licensed (commercial use allowed with author attribution and “AS IS” clause).
 
-> **aka**: _QR Gen — main script: `qr.py`
+> **aka**: _QR Gen — main script: `qr-gen.py`
 
 ---
 
@@ -43,7 +43,11 @@ sudo apt install -y python3-segno
 sudo apt install -y git
 git clone https://github.com/pawlict/QR-Gen.git
 ```
-
+3) Ctart program
+```bash 
+cd QR-Gen
+python3 qr-gen.py
+```
 **requirements.txt**
 ```txt
 PyQt5>=5.15
@@ -51,22 +55,6 @@ segno>=1.6
 ```
 
 ---
-
-## 🐧 Kali / Debian / Ubuntu (PEP 668 safe setup)
-
-> On Debian-based systems, avoid global `pip` installs. Use a **virtual environment**.
-
-```bash
-sudo apt update
-sudo apt install -y python3-venv
-
-python3 -m venv ~/.venvs/qrwallet
-source ~/.venvs/qrwallet/bin/activate
-pip install --upgrade pip wheel
-pip install PyQt5 segno
-
-python3 qr_wallet_maker.py
-```
 
 **Alternative with system packages (if available):**
 ```bash
@@ -86,7 +74,7 @@ brew install python@3.12
 
 ## 🖥️ Usage
 
-1. Open **QR Generator** (`qr_wallet_maker.py`).
+1. Open **QR Gen** (`qr-gen.py`).
 2. Go to **Generate** tab:
    - Paste your string (e.g., wallet address, URL, Wi‑Fi pass).
    - Choose **Format**: PNG / SVG / PDF.
