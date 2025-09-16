@@ -40,7 +40,7 @@ sudo apt install -y python3-segno
 
 3) Get the code
 ```bash 
-sudo apt update && sudo apt install -y git
+sudo apt install -y git
 git clone https://github.com/pawlict/QR-Gen.git
 ```
 
