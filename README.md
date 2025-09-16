@@ -107,7 +107,7 @@ python -c "import segno, PyQt5; print('OK', segno.__version__)"
 
 Force X11 on Wayland (Linux):
 ```bash
-QT_QPA_PLATFORM=xcb python3 qr_wallet_maker.py
+QT_QPA_PLATFORM=xcb python3 qr.py
 ```
 
 ---
@@ -133,7 +133,7 @@ QT_QPA_PLATFORM=xcb python3 qr_wallet_maker.py
 - **No window shows / black screen**  
   Try:
   ```bash
-  QT_QPA_PLATFORM=xcb python3 qr_wallet_maker.py
+  QT_QPA_PLATFORM=xcb python3 qr.py
   ```
 
 ---
