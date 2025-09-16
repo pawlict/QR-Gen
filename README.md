@@ -43,7 +43,7 @@ sudo apt install -y python3-segno
 sudo apt install -y git
 git clone https://github.com/pawlict/QR-Gen.git
 ```
-3) Ctart program
+3) Start program
 ```bash 
 cd QR-Gen
 python3 qr-gen.py
