@@ -1,4 +1,4 @@
-# QR Generator (PyQt5) — by pawlict
+# QR Gen
 
 Desktop QR code generator with a simple PyQt5 GUI. Paste any string (e.g., a crypto wallet address) and export (off-line) QR codes to **PNG**, **SVG**, or **PDF**. MIT licensed (commercial use allowed with author attribution and “AS IS” clause).
 
